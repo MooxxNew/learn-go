@@ -28,6 +28,8 @@ func toFullName(names ...string) string {
 }
 
 func main() {
+	name := []string{"Mooxx","New"}
 	fmt.Println("vim-go")
 	fmt.Println(format(" alan turing ", trim, last, strings.ToUpper))
+	fmt.Println(toFullName(name...))	
 }
