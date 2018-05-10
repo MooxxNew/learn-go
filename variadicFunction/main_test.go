@@ -33,3 +33,17 @@ func TestLast(t *testing.T){
 		t.Error(actual)
 	}
 }
+
+func TestFullName(t *testing.T){
+	expect := "Mooxx New"
+
+	actual := toFullName("Mooxx","New")
+
+	if actual != expect {
+		t.Error("expect")
+		t.Error(expect)
+		t.Error("to equal")
+		t.Error(actual)
+
+	}
+}
